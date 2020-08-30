@@ -1,0 +1,26 @@
+.movieCard {
+  display: flex;
+  text-align: left;
+  color: white;
+  padding: 10px;
+  margin: 5px 20px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://www.netflix-nederland.nl/wp-content/uploads/2018/08/package-the-netflix-1.jpg");
+  background-repeat: no-repeat;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  cursor: pointer;
+  flex: 1;
+  min-width: 350px;
+}
+
+.movieCard_items {
+  transition: opacity 0.5s;
+  margin: auto 5px 5px 15px;
+}
+
+.movieCard:hover {
+  transform: scale(1.05, 1.05);
+}

@@ -1,0 +1,13 @@
+.movieGroup__collection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.movieGroup h1 {
+  font-family: sans-serif;
+  text-align: left;
+  margin: 20px 20px 5px 20px;
+  color: white;
+}
